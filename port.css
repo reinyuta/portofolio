@@ -1,0 +1,27 @@
+body{
+    padding-top: 20px;
+    color: white;
+    background-color: black;
+}
+
+
+.w{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 250px;
+}
+
+.w:hover{
+    box-shadow: 0 0px 15px #b3e6ff;
+	transform: translateY(-5px);
+}
+
+.brip{
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.brip:hover{
+    color: pink;
+}   

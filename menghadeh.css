@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: black;
+    min-height: 200vh;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    background: linear-gradient(to right, #fff 50%, #80d4ff 50%, #ff80bf);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+}
+
+header .logo:hover{
+    background-position: -100%;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 13px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700px;
+    transition: 0.5s;
+}
+
+header ul li a:hover{
+    transition: 0.5s;
+    color: #4dc3ff;
+}
+
+.banner{
+    color: white;
+    
+}
+
+.yeuh{
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background: url(https://i.imgur.com/BcYNh4V.jpg) no-repeat;
+    background-size: cover;
+}
+
+.bawah{
+    cursor: pointer;
+    position: static;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 175px;
+    padding-bottom: 1000px;
+    color: black;
+}
+
+.bawah:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+header.melambat{
+    padding: 40px 100px;
+    background: white;
+}
+
+header.melambat .logo,
+header.melambat ul li a{
+    color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 2000 ;
+}
